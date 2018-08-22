@@ -5,3 +5,8 @@ h3 {
 h1 {
     color: skyblue;
 }
+
+p {
+    padding: 20px;
+    background-color: palegreen;
+}
