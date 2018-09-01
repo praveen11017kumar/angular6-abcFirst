@@ -30,7 +30,7 @@ export class FirstComponent {
         this.firstCompData = 'Message Changed';
         this.firstVar = 'On click changed to FIRST';
     }
-    checkUsername() {
+    resetUsername() {
         this.username = '';
     }
 
