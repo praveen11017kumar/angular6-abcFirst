@@ -8,5 +8,16 @@
             <p>{{firstVar}} </p>
         </div>
     </div>
+    <button class="btn btn-primary" [disabled]='!btnEnable' (click)="changeMsg()">Change</button> <br> {{firstCompData}}
+
+    <input type="text" class="form-control" [(ngModel)]='textValue'> {{textValue}}<br>
+
+    <!--assignment2-->
+    <label>Username: </label>
+    <input type="text" class="form-control" [(ngModel)]="username">
+    <button class="btn btn-primary" [disabled]='!username' (click)="checkUsername()">Submit</button>
+    <h5>Hello {{username}}</h5>
 </div>
+
+
 <hr>

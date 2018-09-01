@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
 
 })
 export class SecondComponent {
-  secondVar = 'second';
+  secondVar: String;
+  constructor() {
+    this.secondVar = 'second';
+  }
 }
