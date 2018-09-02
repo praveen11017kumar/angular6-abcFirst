@@ -8,7 +8,17 @@ import { Component } from '@angular/core';
 })
 export class SecondComponent {
   secondVar: String;
+  textArray: any;
+  count: number;
+
   constructor() {
     this.secondVar = 'second';
+    this.count = 1;
+    this.textArray = [];
+  }
+  togglemsg() {
+
+    this.textArray.push({content: 'some sample text', id: this.count++});
+    console.log(this.textArray);
   }
 }
